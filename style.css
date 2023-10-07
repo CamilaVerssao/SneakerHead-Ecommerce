@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -178,7 +178,7 @@ body {
 }
 
 #hero button:hover {
-    background-color: #b33923;
+    background-color: #9e2a16;
 }
 
 #feature {
@@ -296,6 +296,52 @@ body {
     font-weight: 700;
     padding-top: 10px;
 }
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(assets/icons/nike-air-max-98-la-mezcla-nyc.jpg);
+    background-position: top 50% right 0;
+    background-size: contain;
+    height: 35vh;
+    width: 100%;
+    font-weight: 900;
+}
+
+#content {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#content h2 {
+    font-size: 150px;
+    font-style: italic;
+    text-shadow: 15px 15px 32px black;
+    color: white;
+}
+
+#banner button {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font: 800;
+    border: 0;
+    border-radius: 9999px;
+    width: 10%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#banner button:hover {
+    background-color: white;
+    color: black;
+} 
 
 
 
