@@ -109,7 +109,6 @@ body {
     position: absolute;
     bottom: -4px;
     left: 20px;
-
     transform: scaleX(1);
     transform-origin: left;
     transition: transform 0.4s;
@@ -197,6 +196,7 @@ body {
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.2s ease;
 }
 
 #feature .fe-card h2 {
@@ -213,8 +213,7 @@ body {
 }
 
 #feature .fe-card:hover { 
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
-
+    box-shadow: 10px 10px 54px rgba(28, 28, 32, 0.1);
 }
 
 .fe-card img {
@@ -223,6 +222,83 @@ body {
     height: fit-content;
     padding-bottom: 15px;
 }
+
+#product1 {
+    text-align: center;
+}
+
+.star img {
+    width: 100%;
+    max-width: 15px;
+    height: 100%;
+    max-height: 15px;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.product .cart {
+    width: 100%;
+    max-width: 22px;
+    height: 100%;
+    max-height: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+#product1 .product {
+    width: 23%;
+    min-width: 250px;
+    padding: 20px 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: 0.4s ease;
+    position: relative;
+}
+#product1 .product:hover { 
+    box-shadow: 10px 10px 54px rgba(28, 28, 32, 0.08);
+}
+
+.product .img-object {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    max-height: 350px;
+    padding-bottom: 15px;
+}
+
+#product1 .product .description {
+    text-align: start;
+    padding: 10px 15px;
+}
+
+#product1 .product .description span {
+    color: #636363;
+    font-size: 17px;
+}
+
+#product1 .product .description h3 { 
+    padding-top: 7px;
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+
+#product1 .product .description h4 { 
+    padding-top: 7px;
+    font-size: 19px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+
 
 /*Home Page*/
 
