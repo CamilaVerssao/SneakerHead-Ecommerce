@@ -11,16 +11,24 @@ body {
     width: 100%;
 }
 
+.section-p1 {
+    padding: 40px 80px;
+}
+
 /*Header*/
 
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #E3E6F3;
+    background-color: #F7F7F7;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     padding-right: 40px;
     height: 120px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #header .logo {
@@ -36,8 +44,7 @@ body {
 #navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
-    position: sticky;
+    justify-content: center;   
 }
 
 #navbar li {
@@ -110,5 +117,115 @@ body {
 }
 
 /*Header*/
+
+/*Home Page*/
+
+#hero {
+    background-image: url('assets/icons/img-nike-snake.png');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 70% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero>* {
+    padding-bottom: 15px;
+}
+
+#hero>:last-child {
+    padding: 0;
+}
+
+#hero h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#hero h2 {
+    font-size: 45px;
+    padding-bottom: 0;
+}
+
+#hero h1 {
+    font-size: 50px;
+    color: #e0462b;
+}
+
+#hero p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #636363;
+}
+
+#hero button {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #e0462b;
+    border: 0;
+    border-radius: 9999px;
+    height: 100%;
+    max-height: 40px;
+    width: 100%;
+    max-width: 200px;
+    color: #F7F7F7;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #b33923;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#feature .fe-card {
+    width: fit-content;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#feature .fe-card h2 {
+    color: #e0462b;
+    line-height: 1;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#feature .fe-card h3 { 
+    line-height: 1;
+    padding-top: 8px;
+    font-weight: 500;
+}
+
+#feature .fe-card:hover { 
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+
+}
+
+.fe-card img {
+    width: 100%;
+    max-width: 300px;
+    height: fit-content;
+    padding-bottom: 15px;
+}
+
+/*Home Page*/
+
+
 
 
