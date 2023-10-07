@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+/*Header*/
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    padding-right: 40px;
+    height: 120px;
+}
+
+#header .logo {
+    width: 180px;
+    height: 180px;
+}
+
+#header .cart-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+#navbar li:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+#navbar li a:hover {
+    color: #e0462b;
+    transition: all 0.3s ease;    
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #e0462b;
+}
+
+#navbar li a.active::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #e0462b;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#navbar li a::after,
+#navbar li a.active::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #e0462b;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: #e0462b;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.4s;
+
+}
+
+/*Header*/
+
+
