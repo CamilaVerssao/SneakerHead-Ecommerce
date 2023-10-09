@@ -163,6 +163,17 @@ body {
     color: #636363;
 }
 
+#search-box {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 250px;
+    height: 35px;
+    border-radius: 9999px;
+    border: solid 1px black;
+    font-size: 18px;
+ 
+}
+
 #hero button {
     font-size: 18px;
     font-weight: 400;
@@ -337,7 +348,6 @@ body {
     font-style: italic;
     text-shadow: 15px 15px 32px black;
     color: white;
-
     width: 800px;
 }
 
@@ -468,6 +478,91 @@ body {
 
 
 /*Home Page*/
+
+/*Blog Page*/
+
+
+.start-banner img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.preview {
+    height: 40vh;
+    width: 100%;
+    min-width: 500px;
+    padding: 100px 500px;
+    text-align: center;
+}
+
+.preview h4 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 100;
+}
+
+#blog-top .start-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(assets/icons/NIKE90.jpg);
+    background-position: 0;
+    margin: 0;
+    background-size: contain;
+    height: 35vh;
+    width: 100%;
+    min-width: 800px;
+    font-weight: 900; 
+    font-size: 120px;
+    color: white;
+    font-variant: small-caps;
+}
+
+.start-banner h2 {
+    font-weight: 900; 
+    font-size: 60px;
+    color: white;
+    font-variant: small-caps;
+    background-color: black;
+    border-radius: 9999px;
+    padding: 28px;
+}
+
+#content {
+    padding: 100px 80px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .brand-img {
+    padding: 0 100px;
+}
+
+#brand-text {
+    padding: 0 100px;
+
+}
+
+#brand-text h2 {
+    color: black;
+    text-shadow: none;
+    padding-bottom: 80px;
+    font-size: 40px;
+    font-size: 45px;
+}
+
+#brand-text h4 {
+    font-size: 30px;
+    text-align: start;
+    line-height: 45px;
+    font-weight: 100;
+}
+
+
+/*Blog Page*/
 
 
 
