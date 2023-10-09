@@ -411,6 +411,61 @@ body {
     background-color: #e0462b;
 }
 
+#footer {
+    padding: 70px 0;
+    background-color: #e0462b;
+}
+
+.ft-container {
+    background-color: #e0462b;
+    margin: auto;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col .fontawesome-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col #ul-redes li {
+    padding-right: 10px;
+}
+
+
+.footer-col h4 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-col a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    line-height: 22px;
+    position: relative;
+    transition: all 0.4s ease;
+
+}
+
+.footer-col a:hover {
+    padding: 0 10px;
+    font-weight: 800;
+}
+
+
 
 /*Home Page*/
 
