@@ -255,6 +255,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 15px;
+    margin-bottom: 100px;
 }
 
 .product .cart {
@@ -336,7 +337,7 @@ body {
     font-weight: 900; 
 }
 
-#content {
+#banner #content {
     padding: 20px;
     align-items: center;
     text-align: center;
@@ -345,7 +346,7 @@ body {
     margin: 0 ;
 }
 
-#content h2 {
+#banner #content h2 {
     font-size: 150px;
     font-style: italic;
     text-shadow: 15px 15px 32px black;
@@ -375,17 +376,17 @@ body {
     width: 100%;
 }
 
-.content-box {
+#sm-banner .content-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 100px;
+    margin: 0 100px 140px 100px;
 }
 
 #sm-banner #more-about {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 50px;
     font-size: 30px;
 }
@@ -522,6 +523,25 @@ body {
     font-variant: small-caps;
 }
 
+#shop-top .start-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(assets/icons/NIKE87.jpg);
+    background-position: 0;
+    margin: 0;
+    background-size: contain;
+    height: 35vh;
+    width: 100%;
+    min-width: 800px;
+    font-weight: 900; 
+    font-size: 120px;
+    color: white;
+    font-variant: small-caps;
+}
+
 .start-banner h2 {
     font-weight: 900; 
     font-size: 60px;
@@ -563,14 +583,36 @@ body {
     font-weight: 100;
 }
 
-
 /*Blog Page*/
 
+<<<<<<< HEAD
+=======
+/*About Page*/
+
+#history .history-content {
+    display: flex;
+    flex-direction: row;
+    text-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#history .history-content h4 {
+    padding: 0 50px 0 0;
+    font-size: 20px;
+}
+
+/**/
+
+>>>>>>> af7e6c3f78144642798dac87cec9b8955f0b3747
 /*Single Product*/
 #prodetails {
     display: flex;    
     margin-top: 20px;
+<<<<<<< HEAD
     margin-bottom: 0px;
+=======
+>>>>>>> af7e6c3f78144642798dac87cec9b8955f0b3747
 }
 
 #prodetails .single-pro-image {
@@ -583,6 +625,7 @@ body {
     padding-top: 30px;
 }
 
+<<<<<<< HEAD
 #prodetails .single-pro-details h6 {
     font-size: 20px;
     font-weight: 200;
@@ -615,10 +658,25 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+=======
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+>>>>>>> af7e6c3f78144642798dac87cec9b8955f0b3747
 }
 
 #prodetails .single-pro-details input { 
     width: 50px;
+<<<<<<< HEAD
     height: 30px;
     padding-left: 10px;
     font-size: 16px;
@@ -667,10 +725,19 @@ body {
 
 /**/
 
+=======
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+>>>>>>> af7e6c3f78144642798dac87cec9b8955f0b3747
 
 
 /*Single Product*/
 
+<<<<<<< HEAD
 /*Contact Page*/
 
 #contact-details {
@@ -710,6 +777,8 @@ body {
 
 /*Contact Page*/
 
+=======
+>>>>>>> af7e6c3f78144642798dac87cec9b8955f0b3747
 /*Media Queries*/
 
 @media(max-width: 799px) {
