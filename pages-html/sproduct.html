@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
+    <title>Single Product</title>
     <link rel="stylesheet" href="../style.css">
+</head>
+<body>
 
     <section id="header">
         <a href="../index.html"><img src="../assets/icons/logoSNKHD.png" alt="logoSNKHD" class="logo"></a>
         <div>
             <ul id="navbar">
                 <li><a href="../index.html">Home</a></li>
-                <li><a class="active" href="pages-html/shop.html">Shop</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">Sobre</a></li>
                 <li><a href="contact.html">Contato</a></li>
@@ -20,75 +22,43 @@
         </div>       
     </section>
 
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="../index()" alt="" id="MainImg" width="100%">
+        </div>
+        <div class="single-pro-details">
+            <h6 id="title">Home / Nike Dunk</h6>
+            <h4 id="prod-name">Dunk Jumbo Mushroom</h4>
+            <h2 id="price">R$899,99</h2>
+            <div id="sel-input-row">
+                <select>
+                    <option>Escolha o tamanho</option>
+                    <option>34</option>
+                    <option>36</option>
+                    <option>37</option>
+                    <option>38</option>
+                    <option>39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                    <option>43</option>
+                    <option>44</option>
+                </select>
+                <input type="number" value="1">
+            </div>
+            <button class="botao">Adicionar ao carrinho</button>
+            <span>Seu visual favorito fica grande e ousado. A marca extra grande exagera o visual clássico, 
+                enquanto a unidade Air Strobel coloca amortecimento logo abaixo dos seus pés. E se isso não for suficiente, 
+                a construção da língua "de dentro para fora" e o novo sistema de amarração trazem um novo visual personalizável.</span>
+        </div>
+       
+    </section>
+
     <section id="product1" class="section-p1">
-        <h2>Produtos em alta</h2>
-        <p>Descubra a Coleção Exclusiva de Tênis Premium</p>
+        <h2>Novos produtos</h2>
+        <p>Descubra a nova coleção</p>
         <div class="product-container">
-            <div class="product" onclick="info(0)">
-                <img class="img-object" src="../assets/products/prod1.png" alt="product 1">
-                <div class="description">
-                    <span>Nike</span>
-                    <h3>Dunk Jumbo Mushroom</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                    </div>
-                    <h4>R$899,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
-            </div>
-            <div class="product" onclick="info(1)">
-                <img class="img-object" src="../assets/products/prod2.png" alt="product 2">
-                <div class="description">
-                    <span>Nike</span>
-                    <h3>Terminator Low Velvet Brown</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                    </div>
-                    <h4>R$1099,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
-            </div>
-            <div class="product" onclick="info(2)">
-                <img class="img-object" src="../assets/products/prod3.png" alt="product 3">
-                <div class="description">
-                    <span>Adidas</span>
-                    <h3>Adi 2000</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                    </div>
-                    <h4>R$799,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
-            </div>
-            <div class="product" onclick="info(3)">
-                <img class="img-object" src="../assets/products/prod4.png" alt="product 4">
-                <div class="description">
-                    <span>Nike</span>
-                    <h3>Air Force 1 Low Retro</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                    </div>
-                    <h4>R$1399,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
-            </div>
-            <div class="product" onclick="info(4)">
+            <div class="product">
                 <img class="img-object" src="../assets/products/prod5.png" alt="product 5">
                 <div class="description">
                     <span>Adidas</span>
@@ -104,7 +74,7 @@
                 </div>
                 <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
             </div>
-            <div class="product" onclick="info(5)">
+            <div class="product">
                 <img class="img-object" src="../assets/products/prod6.avif" alt="product 6">
                 <div class="description">
                     <span>Nike</span>
@@ -120,7 +90,7 @@
                 </div>
                 <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
             </div>
-            <div class="product" onclick="info(6)">
+            <div class="product">
                 <img class="img-object" src="../assets/products/prod7.png" alt="product 7">
                 <div class="description">
                     <span>Adidas</span>
@@ -136,7 +106,7 @@
                 </div>
                 <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
             </div>
-            <div class="product" onclick="info(7)">
+            <div class="product">
                 <img class="img-object" src="../assets/products/prod8.avif" alt="product 8">
                 <div class="description">
                     <span>Nike</span>
@@ -192,8 +162,7 @@
         </div>       
     </section>
 
+    <script src="../script.js"></script>
 
-    
 </body>
-<script src="../script.js"></script>
 </html>
