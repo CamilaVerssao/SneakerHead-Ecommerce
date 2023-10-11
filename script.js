@@ -52,6 +52,8 @@ const products = [
 let choosenProduct = products[0];
 let productClass = Array.from(document.getElementsByClassName('product'));
 
+/*Single Product Info*/ 
+
 let sproductTitle = document.getElementById('prod-names');
 console.log(sproductTitle)
 
@@ -71,6 +73,21 @@ productClass.forEach((item, index) => {
 
     });
 });
+
+/*Single Product Info*/ 
+
+
+/*Product Cart*/ 
+
+const removeProductIcons = document.getElementsByClassName('remove-icon')
+
+for(let i = 0; i < removeProductIcons.length; i++) {
+    removeProductIcons[i].addEventListener('click', function() {
+        console.log('clicou')
+    })
+}
+/*Product Cart*/ 
+
 
 
 
