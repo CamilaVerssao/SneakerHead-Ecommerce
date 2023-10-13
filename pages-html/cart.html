@@ -29,36 +29,37 @@
                     <td>REMOVER</td>
                     <td>IMAGEM</td>
                     <td>PRODUTO</td>
+                    <td>PREÇO</td>
                     <td>QUANTIDADE</td>
                     <td>SUB TOTAL</td>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="cart-product">
                     <td class="remove-icon"><a href="#"><img src="../assets/icons/xmark-solid.svg" width="20px"
                     height="20px" alt=""></a></td>
                     <td><img src="../assets/products/prod1.png" alt=""></td>
                     <td>Dunk Jumbo Mushroom</td>
-                    <td>R$ 899,99</td>
-                    <td><input type="number" value="1"></td>
+                    <td class="cart-product-price">R$ 899,99</td>
+                    <td><input class="cart-product-quantity" type="number" value="1"></td>
                     <td>R$ 899,99</td>
                 </tr>
-                <tr>
+                <tr class="cart-product">
                     <td class="remove-icon"><a href="#"><img src="../assets/icons/xmark-solid.svg" width="20px"
                     height="20px" alt=""></a></td>
                     <td><img src="../assets/products/prod8.avif" alt=""></td>
                     <td>Air Jordan 1 Low GS Rabbit</td>
-                    <td> R$999,99</td>
-                    <td><input type="number" value="1"></td>
+                    <td class="cart-product-price">R$ 999,99</td>
+                    <td><input class="cart-product-quantity" type="number" value="1"></td>
                     <td>R$ 999,99</td>
                 </tr>
-                <tr>
+                <tr class="cart-product">
                     <td class="remove-icon"><a href="#"><img src="../assets/icons/xmark-solid.svg" width="20px"
                     height="20px" alt=""></a></td>
                     <td><img src="../assets/products/prod4.png" alt=""></td>
                     <td>Air Force 1 Low Retro</td>
-                    <td>R$ 1399,99</td>
-                    <td><input type="number" value="1"></td>
+                    <td class="cart-product-price">R$ 1399,99</td>
+                    <td><input class="cart-product-quantity" type="number" value="1"></td>
                     <td>R$ 1399,99</td>
                 </tr>
             </tbody>
@@ -86,7 +87,7 @@
                 </tr>
                 <tr>
                     <td><strong>Total</strong></td>
-                    <td><strong>R$ 3.299,97</strong></td>
+                    <td id="total-amount"><strong>R$ 3.299,97</strong></td>
                 </tr>
             </table>
             <button class="botao">Continuar para pagamento</button>

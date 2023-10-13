@@ -13,7 +13,7 @@
         <div>
             <ul id="navbar">
                 <li><a href="../index.html">Home</a></li>
-                <li><a class="active" href="pages-html/shop.html">Shop</a></li>
+                <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">Sobre</a></li>
                 <li><a href="pages-html/contact.html">Contato</a></li>
@@ -28,7 +28,7 @@
         </div>
         <div class="single-pro-details">
             <h6 id="title">Home / Nike Dunk</h6>
-            <h4 id="prod-names">Dunk Jumbo Mushroom</h4>
+            <h4 id="prod-name">Dunk Jumbo Mushroom</h4>
             <h2 id="price">R$899,99</h2>
             <div id="sel-input-row">
                 <select>
@@ -46,75 +46,85 @@
                 </select>
                 <input type="number" value="1">
             </div>
-            <button class="botao">Adicionar ao carrinho</button>
-
+            <button class="botao" onclick="window.location.href='cart.html'">Adicionar ao carrinho</button>
+        </div>
+      </section>
+        
     <section id="product1" class="section-p1">
         <h2>Novos produtos</h2>
         <p>Descubra a nova coleção</p>
         <div class="product-container">
             <div class="product">
-                <img class="img-object" src="../assets/products/prod5.png" alt="product 5">
-                <div class="description">
-                    <span>Adidas</span>
-                    <h3>Ozweego</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
+                <div class="prod-card" onclick="devolveObj(4)">
+                    <img class="img-object" src="../assets/products/prod5.png" alt="product 5">
+                    <div class="description">
+                        <span>Adidas</span>
+                        <h3>Ozweego</h3>
+                        <div class="star">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                        </div>
+                        <h4>R$999,99</h4>
                     </div>
-                    <h4>R$999,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
+                </div>  
+                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho" onclick="window.location.href='/pages-html/cart.html'"></a>
             </div>
             <div class="product">
-                <img class="img-object" src="../assets/products/prod6.avif" alt="product 6">
-                <div class="description">
-                    <span>Nike</span>
-                    <h3>Air Vapormax Triple Black</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
+                <div class="prod-card" onclick="devolveObj(5)">
+                    <img class="img-object" src="../assets/products/prod6.avif" alt="product 6">
+                    <div class="description">
+                        <span>Nike</span>
+                        <h3>Air Vapormax Triple Black</h3>
+                        <div class="star">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                        </div>
+                        <h4>R$999,99</h4>
                     </div>
-                    <h4>R$999,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
+                </div>       
+                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho" onclick="window.location.href='/pages-html/cart.html'"></a>
             </div>
             <div class="product">
-                <img class="img-object" src="../assets/products/prod7.png" alt="product 7">
-                <div class="description">
-                    <span>Adidas</span>
-                    <h3>Forum Mod Low</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
+                <div class="prod-card" onclick="devolveObj(6)">
+                    <img class="img-object" src="../assets/products/prod7.png" alt="product 7">
+                    <div class="description">
+                        <span>Adidas</span>
+                        <h3>Forum Mod Low</h3>
+                        <div class="star">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                        </div>
+                        <h4>R$899,99</h4>
                     </div>
-                    <h4>R$899,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
+                </div>          
+                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho" onclick="window.location.href='/pages-html/cart.html'"></a>
             </div>
             <div class="product">
-                <img class="img-object" src="../assets/products/prod8.avif" alt="product 8">
-                <div class="description">
-                    <span>Nike</span>
-                    <h3>Air Jordan 1 Low GS Rabbit</h3>
-                    <div class="star">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
-                        <img src="../assets/icons/star-solid.png" alt="">
+                <div class="prod-card" onclick="devolveObj(7)">
+                    <img class="img-object" src="../assets/products/prod8.avif" alt="product 8">
+                    <div class="description">
+                        <span>Nike</span>
+                        <h3>Air Jordan 1 Low GS Rabbit</h3>
+                        <div class="star">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                            <img src="../assets/icons/star-solid.png" alt="">
+                        </div>
+                        <h4>R$999,99</h4>
                     </div>
-                    <h4>R$999,99</h4>
-                </div>
-                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho"></a>
+                </div>     
+                <a href="#"><img class="cart" src="../assets/icons/cart-shopping-solid.png" alt="Carrinho" onclick="window.location.href='/pages-html/cart.html'"></a>
             </div>
         </div>
     </section>
@@ -155,6 +165,27 @@
             </div> 
         </div>       
     </section>
+
     <script src="../script.js"></script>
+    <script>
+        
+        let myData = JSON.parse(localStorage.getItem('tenis'));
+        localStorage.clear();
+
+        let prodName = document.getElementById('prod-name');
+        let prodPrice = document.getElementById('price');
+        let prodImg = document.getElementById('MainImg');
+        let prodGroup = document.getElementById('title');
+
+        let priceFormat = myData.price;
+        priceFormat = priceFormat.toString().replace('.', ','). replace('', 'R$');
+
+        prodName.innerText = myData.title;
+        prodPrice.innerText = priceFormat;
+        prodGroup.innerText = myData.group;
+        prodImg.src = myData.img;
+    
+     
+    </script>
 </body>
 </html>
