@@ -260,12 +260,18 @@ body {
 
 .product .cart {
     width: 100%;
-    max-width: 22px;
+    max-width: 45px;
     height: 100%;
-    max-height: 22px;
+    max-height: 45px;
     position: absolute;
     bottom: 30px;
-    right: 20px;
+    right: 30px;
+    padding: 10px;
+}
+
+.product .cart:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 #product1 .product {
@@ -594,10 +600,6 @@ body {
     justify-content: space-between;
 }
 
-#history .history-content h2 {
-    
-}
-
 #history .history-content h4 {
     padding: 0 50px 0 0;
     font-size: 20px;
@@ -632,7 +634,18 @@ body {
     flex-direction: row;
 }
 
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+    font-size: 25px;
+}
+
+#prodetails .single-pro-details h2 {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
 #prodetails .single-pro-details button {
+    margin-top: 10px;
     margin-bottom: 70px;
     display: flex;
     align-items: center;
@@ -640,24 +653,15 @@ body {
     flex-direction: column;
 }
 
-#prodetails .single-pro-details h4 {
-    padding: 40px 0 20px 0;
-}
-
-#prodetails .single-pro-details h2 {
-    font-size: 26px;
-}
-
 #prodetails .single-pro-details select {
-    display: block;
     padding: 5px 10px;
     margin-bottom: 10px;
+    margin-right: 20px;
 }
 
 #prodetails .single-pro-details input { 
     width: 50px;
     height: 30px;
-    padding-left: 10px;
     font-size: 16px;
     margin: 0 10px 10px 0;
 }
@@ -796,6 +800,7 @@ body {
 #coupon {
     width: 50%;
     margin-bottom: 30px;
+    padding: 80px;
 }
 
 #coupon h3 {
