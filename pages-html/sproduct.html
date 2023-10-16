@@ -30,6 +30,12 @@
             <h6 id="title">Home / Nike Dunk</h6>
             <h4 id="prod-name">Dunk Jumbo Mushroom</h4>
             <h2 id="price">R$899,99</h2>
+            <p id="prod-desc">Seu visual favorito fica grande e ousado. 
+                A marca extra grande exagera o visual clássico, 
+                enquanto a unidade Air Strobel coloca amortecimento logo abaixo dos seus pés. 
+                E se isso não for suficiente, 
+                a construção da língua "de dentro para fora" e o novo sistema
+                 de amarração trazem um novo visual personalizável.</p>
             <div id="sel-input-row">
                 <select>
                     <option>Escolha o tamanho</option>
@@ -176,6 +182,7 @@
         let prodPrice = document.getElementById('price');
         let prodImg = document.getElementById('MainImg');
         let prodGroup = document.getElementById('title');
+        let prodDesc = document.getElementById('prod-desc');
 
         let priceFormat = myData.price;
         priceFormat = priceFormat.toString().replace('.', ','). replace('', 'R$');
@@ -184,6 +191,7 @@
         prodPrice.innerText = priceFormat;
         prodGroup.innerText = myData.group;
         prodImg.src = myData.img;
+        prodDesc.innerText = myData.desc;
     
      
     </script>
