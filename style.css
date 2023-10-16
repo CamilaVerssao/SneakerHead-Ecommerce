@@ -645,7 +645,7 @@ body {
 }
 
 #prodetails .single-pro-details button {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 70px;
     display: flex;
     align-items: center;
@@ -661,7 +661,7 @@ body {
 
 #prodetails .single-pro-details input { 
     width: 50px;
-    height: 30px;
+    height: 40px;
     font-size: 16px;
     margin: 0 10px 10px 0;
 }
@@ -670,8 +670,13 @@ body {
     font-size: 18px;
     text-align: center;
     line-height: 25px;
-
 }
+
+#prodetails .single-pro-details p {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
 
 /*About Page*/
 
@@ -759,6 +764,7 @@ body {
     border-collapse: collapse;
     table-layout: fixed;
     white-space: nowrap;
+    text-align: center;
 }
 
 #cart table img {
