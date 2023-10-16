@@ -64,7 +64,6 @@ body {
     height: 20px;
     &:hover {
         filter: brightness(0) saturate(100%) invert(36%) sepia(97%) saturate(3755%) hue-rotate(350deg) brightness(95%) contrast(84%);    
-
     }
 
 }
